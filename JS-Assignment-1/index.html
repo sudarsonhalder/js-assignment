@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+        Assignment No 1 
+    </title> 
+</head> 
+  
+<body> 
+    <div style="    margin: auto;
+    width: 50%;
+    border: 6px solid blue;
+    padding: 10px;">
+    <h1>Assignment No 1</h1>
+    <div style="font-size:30px;">
+    <script type="text/javascript"> 
+        var recentDate = new Date(); 
+        var recentDay = recentDate.getDay(); 
+        var weekday = ['Sunday', 'Monday', 'Tuesday', 
+            'Wednesday', 'Thursday', 'Friday', 'Saturday' 
+        ]; 
+        document.write("Today is : " + weekday[recentDay]); 
+        document.write("<br/>"); 
+        var hours = recentDate.getHours(); 
+        var ampm = hours >= 12 ? 'PM' : 'AM'; 
+        hours = hours % 12; 
+        hours = hours ? hours : 12; 
+        var minutes = recentDate.getMinutes(); 
+        minutes = minutes < 10 ? '0' + minutes : minutes; 
+        var recentTime = hours + ampm + " : " + minutes +  
+            " : " + recentDate.getSeconds(); 
+        document.write("\tCurrent time is : " + recentTime); 
+    </script> 
+    </div>
+</body> 
+</div>
+  
+</html> 
