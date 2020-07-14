@@ -1,0 +1,44 @@
+OUESTION 3:-
+
+
+Brief into on datatypes in javascript:-
+Data types in JavaScript describe the different types or kinds of data that you will be working with and storing in variables.
+Otherwise data can get stored in an improper format which will result in issues in your code later on. 
+
+FIVE DATA TYPES ARE:-
+1.String
+2.Number
+3.Boolean
+4.Object
+5.Arrays 
+
+
+➤String:-
+1.The String object lets you work with a series of characters; it wraps Javascript's string primitive data type with a number of helper methods.
+2.As JavaScript automatically converts between string primitives and String objects, you can call any of the helper methods of the String object on a string primitive.
+3.Strings can be enclosed within either single quotes, double quotes or backticks:
+
+➤Number:-
+1.A number data type can be an integer, a floating point value, an exponential value, a ‘NaN’ or a ‘Infinity’.
+2.Unlike many other programming languages, JavaScript does not define different types of numbers, like integers, short, long, floating-point etc.
+
+➤Boolean:-
+1.JavaScript Boolean data type can store one of two values, true or false.
+2.Boolean objects can be created using new keyword. e.g. var YES = new Boolean(true);
+
+➤Object:-
+1.Object is a non-primitive data type in JavaScript. 
+2.It is like any other variable, the only difference is that an object holds multiple values in terms of properties and methods.
+
+➤Arrays:-
+1.An array is a special type of variable, which can store multiple values using special syntax.
+2.Every value is associated with numeric index starting with 0. The following figure illustrates how an array stores values.
+
+
+
+
+
+
+
+
+
